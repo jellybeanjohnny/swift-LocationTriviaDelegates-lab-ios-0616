@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2B5C58E11D42629200273743 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5C58E01D42629200273743 /* AppDelegate.swift */; };
-		2B5C58E81D42629200273743 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B5C58E71D42629200273743 /* Assets.xcassets */; };
-		2B5C58EB1D42629200273743 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B5C58E91D42629200273743 /* LaunchScreen.storyboard */; };
-		2B5C59011D42641200273743 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5C59001D42641200273743 /* Location.swift */; };
-		2B5C59051D4264BA00273743 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B5C59041D4264BA00273743 /* Main.storyboard */; };
+		C9E72AA21D468202002453B5 /* LocationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E72AA11D468202002453B5 /* LocationsTableViewController.swift */; };
+		C9E72AA41D46826B002453B5 /* AddLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E72AA31D46826B002453B5 /* AddLocationViewController.swift */; };
+		C9E72AA61D4682BA002453B5 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9E72AA51D4682BA002453B5 /* Storyboard.storyboard */; };
+		C9E72AA81D468DAC002453B5 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E72AA71D468DAC002453B5 /* Location.swift */; };
+		C9E72AAE1D4690CA002453B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E72AAD1D4690CA002453B5 /* AppDelegate.swift */; };
+		C9E72AB01D469154002453B5 /* info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C9E72AAF1D469154002453B5 /* info.plist */; };
+		C9E72AD01D469595002453B5 /* assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9E72ACF1D469595002453B5 /* assets.xcassets */; };
+		C9E72AD21D469816002453B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9E72AD11D469816002453B5 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2B5C58DD1D42629200273743 /* SwiftLocationTriviaDelegates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLocationTriviaDelegates.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B5C58E01D42629200273743 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2B5C58E71D42629200273743 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2B5C58EA1D42629200273743 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2B5C58EC1D42629200273743 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2B5C59001D42641200273743 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Location.swift; path = ../Location.swift; sourceTree = "<group>"; };
-		2B5C59041D4264BA00273743 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		C9E72AA01D468202002453B5 /* SwiftLocationTriviaDelegates-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftLocationTriviaDelegates-Bridging-Header.h"; sourceTree = "<group>"; };
+		C9E72AA11D468202002453B5 /* LocationsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsTableViewController.swift; sourceTree = "<group>"; };
+		C9E72AA31D46826B002453B5 /* AddLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddLocationViewController.swift; sourceTree = "<group>"; };
+		C9E72AA51D4682BA002453B5 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		C9E72AA71D468DAC002453B5 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		C9E72AAD1D4690CA002453B5 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C9E72AAF1D469154002453B5 /* info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
+		C9E72ACF1D469595002453B5 /* assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = assets.xcassets; sourceTree = "<group>"; };
+		C9E72AD11D469816002453B5 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +44,8 @@
 		2B5C58D41D42629200273743 = {
 			isa = PBXGroup;
 			children = (
-				2B5C58DF1D42629200273743 /* SwiftLocationTriviaDelegates */,
+				C9E72ACF1D469595002453B5 /* assets.xcassets */,
+				C9E72A9F1D4681F2002453B5 /* SwiftLocationTriviaDelegates */,
 				2B5C58DE1D42629200273743 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,17 +58,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2B5C58DF1D42629200273743 /* SwiftLocationTriviaDelegates */ = {
+		C9E72A9F1D4681F2002453B5 /* SwiftLocationTriviaDelegates */ = {
 			isa = PBXGroup;
 			children = (
-				2B5C59041D4264BA00273743 /* Main.storyboard */,
-				2B5C59001D42641200273743 /* Location.swift */,
-				2B5C58E01D42629200273743 /* AppDelegate.swift */,
-				2B5C58E71D42629200273743 /* Assets.xcassets */,
-				2B5C58E91D42629200273743 /* LaunchScreen.storyboard */,
-				2B5C58EC1D42629200273743 /* Info.plist */,
+				C9E72AA11D468202002453B5 /* LocationsTableViewController.swift */,
+				C9E72AA71D468DAC002453B5 /* Location.swift */,
+				C9E72AA31D46826B002453B5 /* AddLocationViewController.swift */,
+				C9E72AA51D4682BA002453B5 /* Storyboard.storyboard */,
+				C9E72AA01D468202002453B5 /* SwiftLocationTriviaDelegates-Bridging-Header.h */,
+				C9E72AAD1D4690CA002453B5 /* AppDelegate.swift */,
+				C9E72AD11D469816002453B5 /* LaunchScreen.storyboard */,
+				C9E72AAF1D469154002453B5 /* info.plist */,
 			);
-			path = SwiftLocationTriviaDelegates;
+			name = SwiftLocationTriviaDelegates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +131,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B5C59051D4264BA00273743 /* Main.storyboard in Resources */,
-				2B5C58EB1D42629200273743 /* LaunchScreen.storyboard in Resources */,
-				2B5C58E81D42629200273743 /* Assets.xcassets in Resources */,
+				C9E72AB01D469154002453B5 /* info.plist in Resources */,
+				C9E72AD21D469816002453B5 /* LaunchScreen.storyboard in Resources */,
+				C9E72AA61D4682BA002453B5 /* Storyboard.storyboard in Resources */,
+				C9E72AD01D469595002453B5 /* assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,23 +145,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B5C58E11D42629200273743 /* AppDelegate.swift in Sources */,
-				2B5C59011D42641200273743 /* Location.swift in Sources */,
+				C9E72AAE1D4690CA002453B5 /* AppDelegate.swift in Sources */,
+				C9E72AA21D468202002453B5 /* LocationsTableViewController.swift in Sources */,
+				C9E72AA81D468DAC002453B5 /* Location.swift in Sources */,
+				C9E72AA41D46826B002453B5 /* AddLocationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		2B5C58E91D42629200273743 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2B5C58EA1D42629200273743 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2B5C58ED1D42629200273743 /* Debug */ = {
@@ -242,22 +243,25 @@
 		2B5C58F01D42629200273743 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SwiftLocationTriviaDelegates/Info.plist;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.flatironschool.SwiftLocationTriviaDelegates;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mamerige.SwiftLocationTriviaDelegates;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftLocationTriviaDelegates-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		2B5C58F11D42629200273743 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SwiftLocationTriviaDelegates/Info.plist;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.flatironschool.SwiftLocationTriviaDelegates;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mamerige.SwiftLocationTriviaDelegates;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftLocationTriviaDelegates-Bridging-Header.h";
 			};
 			name = Release;
 		};
